@@ -1,0 +1,52 @@
+{
+  "name": "vows4",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.8.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-calendar-select": "^0.1.2",
+    "react-native-calendars": "^1.17.7",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-fcm": "^10.0.3",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-grid-component": "^1.0.8",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-keyboard-aware-scroll-view": "^0.5.0",
+    "react-native-lightbox": "^0.7.0",
+    "react-native-material-bottom-navigation": "^0.8.2",
+    "react-native-photo-upload": "^1.1.1",
+    "react-native-picker-scrollview": "^0.1.0",
+    "react-native-radio-button": "^2.0.1",
+    "react-native-sms": "^1.5.0",
+    "react-native-snap-carousel": "^3.6.0",
+    "react-native-swiper": "^1.5.13",
+    "react-native-switch": "^1.3.0",
+    "react-native-switch-pro": "^0.4.6",
+    "react-native-ui-kitten": "^3.0.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-wheel-picker-android": "^1.0.3",
+    "react-navigation": "^1.0.0-beta.21"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
